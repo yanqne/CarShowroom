@@ -28,8 +28,14 @@ Dự án xây dựng một hệ thống **website showroom ô tô** với backen
 - **Database**: MySQL  
 - **Authentication**: JWT  
 
-```mermaid
-flowchart LR
-    A[Người dùng (ReactJS)] -->|Yêu cầu| B[Java Spring Boot API]
-    B --> C[(MySQL Database)]
-    D[Quản lý (Admin Panel)] -->|CRUD / Quản lý| B
+⚙️ Yêu cầu hệ thống
+
+Node.js >= 18
+JDK >= 17
+MySQL >= 8.0
+
+🚀 Cài đặt & Chạy dự án
+
+git clone https://github.com/your-username/showroom-car.git
+cd showroom-car
+
